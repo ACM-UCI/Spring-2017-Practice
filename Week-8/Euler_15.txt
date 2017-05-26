@@ -1,0 +1,9 @@
+The answer is 40 Choose 20
+Every path from top-left to bottom-right is a sequence of steps.
+A step can be either right (R) or down (D).
+Thus, a path going along the top and then down the right edge would be: RRRRRRRRRRRRRRRRRRRRDDDDDDDDDDDDDDDDDDDD
+Another valid path would be RRRDDRDDDRRRRDDRDDDRRRRDDRDDDRRRRDDRDDDR.
+Essentially, each path must contain 20 Rs and 20 Ds.  But these can be in any order.
+
+So we can reduce the problem to: How many ways can we arrange 20 Rs and 20 Ds?
+Or: out of 40 spots, how many ways can we choose 20 spots?
